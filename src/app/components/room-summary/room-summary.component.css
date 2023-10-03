@@ -1,0 +1,20 @@
+.sumarry {
+    width: 150px; /* Largura desejada para o retângulo */
+    height: 200px; /* Altura desejada para o retângulo */
+    background-color: #f0f0f0; /* Cor de fundo do retângulo (exemplo) */
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    border: 1px solid #ccc; /* Adiciona uma borda (opcional) */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+  
+.sumarry h5,
+.sumarry p {
+    margin: 0; /* Remove margens padrão para evitar espaçamento extra */
+    padding: 10px; /* Espaçamento interno (opcional) */
+}

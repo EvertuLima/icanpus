@@ -1,0 +1,133 @@
+.resumo-container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.main {
+  display: flex;
+  padding: 2vh;
+  width: 100%; /* Defina a largura para 100% */
+  box-sizing: border-box;
+}
+.mapa {
+  flex: 1;
+  background-color: gray;
+  min-height: 75vh;
+  min-width: 60vh;
+  padding: 0;
+}
+
+.eventos {
+  
+  background-color: burlywood;
+  min-height: 75vh;
+  min-width: 40vh;
+  padding: 0;
+}
+
+.caixa{
+  padding: 0;
+  position: absolute;
+  width: 500px;
+height: 500px;
+top: 239px;
+left: 180px;
+background-color: #8AE7AF;
+
+}
+.bloco2-esquerda{
+  position: relative;
+  Width:267.27px;
+Height:81.89px;
+Top:368.53px;
+Left:245.7px;
+background-color: #55B77C;
+}
+.bloco2-centro{
+  position: relative;
+  width: 44.79px;
+height: 107.2px;
+top: 250.91px;
+left: 512.97px;
+background-color: #55B77C;
+}
+.bloco2-direita{
+  position: relative;
+  width: 315.05px;
+height: 81.89px;
+top: 143.91px;
+left: 557.76px;
+background-color: #55B77C;
+}
+.retangle2{
+  position: relative;
+  width: 29.86px;
+height: 263.53px;
+top: 140.8px;
+left: 550.77px;
+
+background-color: #55B77C;
+}
+.administrativo1{
+  background-color: #55B77C;
+  position: relative;
+  width: 88.09px;
+height: 221.84px;
+top: 50px;
+left: 245.7px;
+
+}
+.administrativo2{
+   background-color: #55B77C;
+  position: relative;
+  width: 286.68px;
+height: 92.31px;
+top: -85px;
+left: 333.79px;
+}
+.entrada{
+  background-color: #55B77C;
+  position: relative;
+  width: 62.71px;
+height: 78.91px;
+top: -90.64px;
+left: 557.76px;
+
+}
+.cantina{
+  background-color: #55B77C;
+  position: relative;
+  width: 66.89px;
+height: 61.15px;
+top: -400.34px;
+left: 590.05px;
+opacity: 0.57px;
+rotate: 45deg;
+}
+.bib{
+  background-color: #55B77C;
+  position: relative;
+  width: 160.44px;
+height: 195.05px;
+top: -430.99px;
+left: 650.21px;
+opacity: 0.7px;
+rotate: -45deg
+}
+.ret1{
+  background-color: #55B77C;
+  position: relative;
+  width: 95.56px;
+height: 96.78px;
+top: -510.24px;
+left: 620.47px;
+}
+.corte{
+   background-color: #8AE7AF;
+  position: relative;
+  width: 80px;
+height: 80px;
+top: -550.24px;
+left: 640.47px;
+rotate: -50deg
+}

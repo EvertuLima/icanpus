@@ -10,6 +10,8 @@ import { RoomsComponent } from './components/rooms/rooms.component';
 import { RoomsIdComponent } from './components/rooms-id/rooms-id.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { AboutComponent } from './components/about/about.component';
+import { RoomSummaryComponent } from './components/room-summary/room-summary.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { FooterComponent } from './components/footer/footer.component';
     RoomsComponent,
     RoomsIdComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent,
+    RoomSummaryComponent
   ],
   imports: [
     BrowserModule,

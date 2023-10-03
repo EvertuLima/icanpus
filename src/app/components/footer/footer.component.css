@@ -1,0 +1,11 @@
+footer {
+    display: flex;
+    background-color: #333; /* Cor de fundo do rodapé (exemplo) */
+    padding: 0; /* Espaçamento interno no topo e na parte inferior do rodapé */
+    text-align: center; /* Alinha o conteúdo no centro horizontalmente */
+    min-height: 10vh;
+    background-color: rgb(25, 55, 25);
+}
+  
+
+  

@@ -1,9 +1,26 @@
-<header>
-    <app-header></app-header>
-</header>
+<div class="teste" (mouseenter)="mostrarResumo = true" (mouseleave)="mostrarResumo = false">
+    <p>teste</p>
+</div>
 
+<div class="resumo-container" *ngIf="mostrarResumo">
+    <app-room-summary></app-room-summary>
+</div>
+<!-- <div class="main">
+  <div class="mapa">
+    <div class="caixa">
+        <div class="bloco2-esquerda"></div>
+        <div class="bloco2-centro"></div>
+        <div class="bloco2-direita"></div>
+        <div class="retangle2"></div>
+        <div class="administrativo1"></div>
+        <div class="administrativo2"></div>
+        <div class="entrada"></div>
+        <div class="cantina"></div>
+        <div class="bib"></div>
+        <div class="ret1"></div>
+        <div class="corte"></div>
+    </div>
+  </div>
 
-
-<footer>
-    <app-footer></app-footer>
-</footer>
+  <div class="eventos"></div>
+</div> -->

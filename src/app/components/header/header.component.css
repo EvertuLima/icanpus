@@ -1,0 +1,43 @@
+nav {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: rgb(25, 55, 25);
+    color: white;
+    border-bottom: 1px solid white;
+    min-height: 10vh;
+  }
+  
+  .search {
+    width: 20%; /* Defina a largura da barra de pesquisa para 15% do espaço disponível */
+    margin-right: 10px;
+  }
+  
+  .pesquisar {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .links li {
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: red;
+    border: 2px solid transparent;
+    padding: 3px 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
